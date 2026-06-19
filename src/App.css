@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+h1 {
+  color: #212529;
+}
+.form-control,
+.btn {
+  border-radius: 10px;
+}
+
+.card {
+  max-width: 700px;
+  margin: auto;
+}

@@ -1,0 +1,67 @@
+body {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.text-muted {
+  color: #bdbdbd !important;
+}
+
+.form-control {
+  background-color: #2b2b2b;
+  color: white;
+  border: 1px solid #444;
+}
+
+.form-control:focus {
+  background-color: #2b2b2b;
+  color: white;
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+.form-control::file-selector-button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+}
+
+.navbar {
+  background-color: #000 !important;
+  box-shadow: 0 2px 20px rgba(255,255,255,0.1);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-outline-dark {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.progress {
+  background-color: #2b2b2b;
+}
+
+.badge {
+  font-weight: 500;
+}
